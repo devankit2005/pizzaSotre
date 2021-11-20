@@ -14,6 +14,8 @@ const bodyParser = require("body-parser");
 const Emitter = require("events");
 const url = process.env.MONGO_CONNECTION_URL;
 
+// only testing comment
+
 // Database connection
 mongoose.connect(url);
 const connection = mongoose.connection;
