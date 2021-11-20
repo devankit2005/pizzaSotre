@@ -103,3 +103,14 @@ eventEmitter.on("orderPlaced", (data) => {
   console.log("orderPlaced emit call", data);
   io.to(`adminRoom`).emit("orderPlaced", data);
 });
+
+//  ssh://ubuntu@3.14.132.57/var/repo/ankitbharvad.com.git
+// remote add origin ssh://ubuntu@ec2-3-14-132-57.us-east-2.compute.amazonaws.com/var/repo/ankitbharvad.com.git
+
+// remote add origin ubuntu@3.14.132.57/home/ubuntu/git/REPO/gitfile.git
+
+// remote add origin ubuntu@ec2-3-14-132-57/home/ubuntu/git/REPO/gitfile.git
+
+// ubuntu@ec2-3-14-132-57.us-east-2.compute.amazonaws.com
+
+// ssh -i "awsSshKey.pem" ubuntu@ec2-3-14-132-57.us-east-2.compute.amazonaws.com
