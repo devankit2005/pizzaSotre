@@ -114,3 +114,7 @@ eventEmitter.on("orderPlaced", (data) => {
 // ubuntu@ec2-3-14-132-57.us-east-2.compute.amazonaws.com
 
 // ssh -i "awsSshKey.pem" ubuntu@ec2-3-14-132-57.us-east-2.compute.amazonaws.com
+
+// ssh-keygen -R ec2-3-14-132-57.us-east-2.compute.amazonaws.com
+
+// ssh -v -i awsSshKey.pem ubuntu@ec2-3-14-132-57.us-east-2.compute.amazonaws.com
