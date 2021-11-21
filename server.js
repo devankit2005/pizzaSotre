@@ -118,3 +118,6 @@ eventEmitter.on("orderPlaced", (data) => {
 // ssh-keygen -R ec2-3-14-132-57.us-east-2.compute.amazonaws.com
 
 // ssh -v -i awsSshKey.pem ubuntu@ec2-3-14-132-57.us-east-2.compute.amazonaws.com
+
+// mongo --db library -u myUserAdmin -p ankit2005 menus < booksJson.js
+// sudo kill -9 `sudo lsof -t -i:3300`
